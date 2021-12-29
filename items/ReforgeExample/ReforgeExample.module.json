@@ -1,0 +1,37 @@
+{
+    "namespace": "ReforgeExample",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/ReforgeExample"
+            },
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/ReforgeExample"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/ReforgeExample"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/ReforgeExample"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/ReforgeExample"
+            },
+            {
+                "name": "api-key",
+                "path": "/sitecore/system/Settings/Services/API Keys/DefaultApp",
+                "scope": "SingleItem"
+            },
+            {
+                "name": "content",
+                "path": "/sitecore/content/DefaultApp",
+                "scope": "DescendantsOnly"
+            }
+        ]
+    }
+}

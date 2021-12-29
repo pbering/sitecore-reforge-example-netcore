@@ -1,0 +1,12 @@
+services:
+  app:
+    image: reforgeexample-renderinghost
+    build:
+      context: .
+      dockerfile: ./src/ReforgeExample.RenderingHost/Dockerfile
+    ports:
+      - 5000:5000
+    volumes:
+      - .:/app
+    environment:
+      DOTNET_ENVIRONMENT: Development
