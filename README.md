@@ -1,6 +1,6 @@
 # Sitecore Reforge .NET Core Rendering Host example
 
-For more details, see the main repository [Sitecore Reforge](https://github.com/sitecoreops/sitecore-reforge).
+For more details, see the main repository [Sitecore Reforge](https://github.com/pbering/sitecore-reforge).
 
 ## Features
 
